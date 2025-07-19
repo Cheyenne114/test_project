@@ -102,6 +102,8 @@ const Login: React.FC = () => {
   const { styles } = useStyles();
   const intl = useIntl();
 
+  console.log("你好")
+
   const fetchUserInfo = async () => {
     const userInfo = await initialState?.fetchUserInfo?.();
     if (userInfo) {
