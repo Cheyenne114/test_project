@@ -102,7 +102,7 @@ const Login: React.FC = () => {
   const { styles } = useStyles();
   const intl = useIntl();
 
-  console.log("你好")
+  console.log("孙蝉是个憨批")
 
   const fetchUserInfo = async () => {
     const userInfo = await initialState?.fetchUserInfo?.();
